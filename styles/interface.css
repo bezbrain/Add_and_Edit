@@ -37,7 +37,12 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-items: center;
   /* gap: 0px; */
-  padding-inline: 30px;
+  padding-inline: 2vw;
+}
+@media screen and (max-width: 500px) {
+  .body-sect {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
 .each-con {
@@ -108,6 +113,11 @@ img {
 .icon {
   margin-inline: 70px;
   font-size: 18px;
+}
+@media screen and (max-width: 500px) {
+  .icon {
+    margin-inline: 30px;
+  }
 }
 
 .icon:first-child {

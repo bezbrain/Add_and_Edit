@@ -14,9 +14,7 @@ const Interface = () => {
     getData,
     btnContentRef,
     setPerson,
-    person,
     dispatch,
-    allData,
   } = useGlobalContext();
 
   // Delete person
