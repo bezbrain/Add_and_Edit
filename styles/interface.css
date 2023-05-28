@@ -1,0 +1,135 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--darkred);
+  padding: 10px 20px;
+}
+
+.user-count-con {
+  position: relative;
+}
+
+.user-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: var(--yellow);
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 500;
+}
+
+.body-sect {
+  margin-block: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-items: center;
+  /* gap: 0px; */
+  padding-inline: 30px;
+}
+
+.each-con {
+  background-color: #fff;
+  width: 95%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 26px -4px;
+}
+
+.top-sect {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.image {
+  /* background-color: blue; */
+  width: fit-content;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.name-con {
+  line-height: 0.4cm;
+}
+
+.name-con p {
+  color: blueviolet;
+}
+
+.name-con span {
+  color: #000;
+}
+
+.each-con summary {
+  margin-top: 20px;
+}
+
+.each-con summary p:first-child {
+  color: violet;
+  font-weight: 600;
+}
+
+.each-con summary p:nth-child(2) {
+  line-height: 0.5cm;
+}
+
+.edit-del-con {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.icon {
+  margin-inline: 70px;
+  font-size: 18px;
+}
+
+.icon:first-child {
+  color: green;
+}
+
+.icon:nth-child(2) {
+  color: red;
+}
+
+.add-person {
+  background-color: blue;
+  color: #fff;
+  padding: 8px;
+  font-size: 32px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: ease 0.5s all;
+}
+.add-person:hover {
+  padding: 8px;
+  font-size: 35px;
+}

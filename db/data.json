@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "ury5WSFHHSDNC8",
+      "name": "Moyofoluwa",
+      "email": "badejor@e-mail.com",
+      "url": "https://randomuser.me/api/portraits/women/72.jpg",
+      "job": "marketer",
+      "company": "hakan tech",
+      "about": "He do subjects prepared bachelor juvenile ye oh. He feelings removing informed he as ignorant we prepared. Evening do forming observe spirits is in. Country hearted be of justice sending. On so they as with room cold ye. Be call four my went mean. Celebrated if remarkably especially an. Going eat set she books found met aware.",
+      "favColor": "red"
+    },
+    {
+      "id": "yd56EWHDHEKD",
+      "name": "sikiru",
+      "email": "kazeem@mail.com",
+      "url": "",
+      "job": "graphics designer",
+      "company": "track concept",
+      "about": "Style too own civil out along. Perfectly offending attempted add arranging age gentleman concluded. Get who uncommonly our expression ten increasing considered occasional travelling. Ever read tell year give may men call its. Piqued son turned fat income played end wicket. To do noisy downs round an happy books.",
+      "favColor": "green"
+    },
+    {
+      "id": "1684532930323",
+      "name": "Susan Barbara",
+      "job": "CEO",
+      "email": "susan.barbara@microsoft.net",
+      "company": "Microsoft ",
+      "url": "https://randomuser.me/api/portraits/women/85.jpg",
+      "about": "Unpacked reserved sir offering bed judgment may and quitting speaking. Is do be improved raptures offering required in replying raillery. Stairs ladies friend by in mutual an no. Mr hence chief he cause. Whole no doors on hoped. Mile tell if help they ye full name."
+    },
+    {
+      "name": "Jan Bells",
+      "job": "Marketer",
+      "email": "oladotbells@gmail.com",
+      "company": "Facebook",
+      "url": "https://randomuser.me/api/portraits/women/68.jpg",
+      "about": "It as announcing it me stimulated frequently continuing. Least their she you now above going stand forth. He pretty future afraid should genius spirit on. Set property addition building put likewise get. Of will at sell well at as. Too want but tall nay like old. Removing yourself be in answered he. Consider occasion get improved him she eat. Letter by lively oh denote an.",
+      "id": "1684692641287"
+    },
+    {
+      "name": "Brad Ford",
+      "job": "Accountant",
+      "email": "user@tesla.com",
+      "company": "Tesla",
+      "url": "https://randomuser.me/api/portraits/women/85.jpg",
+      "about": "Why end might ask civil again spoil. She dinner she our horses depend. Remember at children by reserved to vicinity. In affronting unreserved delightful simplicity ye. Law own advantage furniture continual sweetness bed agreeable perpetual. Oh song well four only head busy it. Afford son she had lively living. Tastes lovers myself too formal season our valley boy. Lived it their their walls might to by young.",
+      "id": "1684692772948"
+    },
+    {
+      "name": "Cada Wales",
+      "job": "banker",
+      "email": "cada.wales@canva.com",
+      "company": "Canva Inc.",
+      "url": "",
+      "about": "Why end might ask civil again spoil. She dinner she our horses depend. Remember at children by reserved to vicinity. In affronting unreserved delightful simplicity ye. Law own advantage furniture continual sweetness bed agreeable perpetual. Oh song well four only head busy it. Afford son she had lively living. Tastes lovers myself too formal season our valley boy. Lived it their their walls might to by young.",
+      "favColor": "green",
+      "id": "1684695436912"
+    }
+  ]
+}
