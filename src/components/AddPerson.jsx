@@ -1,10 +1,11 @@
-import { FaTimes } from "react-icons/fa";
+import { FaTimes, FaPlusSquare } from "react-icons/fa";
 import "../../styles/addPerson.css";
 import axios from "axios";
 import { useGlobalContext } from "../context";
-import { useRef } from "react";
+import getPhotoUrl from "get-photo-url";
 
 const AddPerson = () => {
+  const [fileValue, setFileValue] = "";
   const {
     showModal,
     setShowModal,
@@ -89,6 +90,7 @@ const AddPerson = () => {
           />
           <form onSubmit={handleSubmit}>
             <input
+              className="input-value"
               type="text"
               name="name"
               placeholder="Name"
@@ -97,6 +99,7 @@ const AddPerson = () => {
             />
             <br />
             <input
+              className="input-value"
               type="text"
               name="job"
               placeholder="Job"
@@ -105,6 +108,7 @@ const AddPerson = () => {
             />
             <br />
             <input
+              className="input-value"
               type="email"
               name="email"
               placeholder="Email"
@@ -113,6 +117,7 @@ const AddPerson = () => {
             />
             <br />
             <input
+              className="input-value"
               type="text"
               name="company"
               placeholder="Company"
@@ -120,7 +125,15 @@ const AddPerson = () => {
               onChange={handleChange}
             />
             <br />
-            <input type="file" name="url" onChange={handleChange} />
+            <input
+              className="file-value"
+              type="button"
+              accept="image/*"
+              name="url"
+              // value={<FaPlusSquare />}
+              // value={fileValue}
+              onChange={handleChange}
+            />
             <br />
             <textarea
               name="about"
